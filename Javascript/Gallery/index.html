@@ -1,0 +1,34 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Javascript tests #1 </title>
+    <script src="script.js"></script>
+
+
+  </head>
+  <body onLoad = "WebPageLoad()">
+    <div id="gContainer">
+      <div id="gallery">
+        <div id="previousClick" onClick="picSel.choosePreviousPicture()">
+            <p id="textButtons">Previous</p>
+        </div>
+        <div id="nextClick" onClick="picSel.chooseNextPicture()">
+          <p id="textButtons">Next</p>
+        </div>
+        <img src="" id="picture">
+        <div id="textBelowPicture"></div>
+      </div>
+      <div id="galleryButtons"> </div>
+
+      <div id="listPictures">
+        <button onClick="printImages()">Get image list</button>
+        <div id="pictureList">
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
